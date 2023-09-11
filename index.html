@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <!-- Inclua o link para o CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <style>
+        body {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .corpo-secao {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+
+        }
+
+
+        .rodape {
+            width: 100%;
+            background-color: #343a40;
+
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Jogos Para Jogar Por Meses</h1>
+        <!-- Menu de Navegação -->
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo da Página -->
+    <div class="container mt-4">
+        <section class="mb-4 corpo-secao">
+            <h2>Baldur's Gate</h2>
+            <p>Baldur's gate é um RPG de mesa dentro do computador, temos controle total sobre ações do nosso personagem
+                e interações, além de cada ação e fala a história tem um desenvolvimento diferente, trazendo uma imerção
+                ainda maior para a trama, com uma história cativante e ótimos personagens, trazendo um background muito
+                bem trabalhado para cada personagem inserido na história lorem10000</p>
+        </section>
+
+        <section class="mb-4 corpo-secao">
+            <h2>Hades</h2>
+            <p>Hades é um jogo estilo plataforma que traz a história do filho do rei do inferno hades, buscando
+                encontrar sua mãe no mundo terreno e descobrindo sua história, cada momento que você morre no jogo voçê
+                volta to começo ficando mais forte para conseguir enfrentar os novos desafios que irá ser incrementado
+                no game, cada hora jogada você tem mais vontade de terminar a jornada de sair do Submundo. </p>
+        </section>
+
+        <section class="mb-4 corpo-secao">
+            <h2>Red Dead Redemption 2</h2>
+            <p>Red Dead Redemption 2 traz a história do Arthur Morgan, que vivia na época final do velho oeste nos
+                Estados Unidos, um jogo em terceira pessoa que te coloca em uma conexão verdadeira com os personagens,
+                principalmente com o protagonista da obra, desenvolendo a conexão do protagonista com os personagens
+                secundários e fazendo o jogador se emocionar com o desenrolar da trama.</p>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 rodape">
+        &copy;
+        <?php echo date("Y"); ?> Minha Página Web
+    </footer>
+
+</body>
+
+</html>
